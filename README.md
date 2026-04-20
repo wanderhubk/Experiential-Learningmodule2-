@@ -27,3 +27,8 @@
 <input type="month"><br><br>
 <label>CVV</label><br>
 <input type="password"><br><br><h3>Net Banking Details</h3>
+<label>Select Bank</label><br>
+<select>
+<option>SBI</option>
+<option>HDFC</option>
+<option>ICICI</option>
