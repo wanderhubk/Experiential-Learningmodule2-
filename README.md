@@ -32,3 +32,11 @@
 <option>SBI</option>
 <option>HDFC</option>
 <option>ICICI</option>
+</select><br><br><label>User ID</label><br>
+<input type="text"><br><br><label>Password</label><br>
+<input type="password"><br><br><input type="checkbox" required> Confirm details<br><br><button type="submit">Register</button>
+
+</form>
+
+</body>
+</html>
