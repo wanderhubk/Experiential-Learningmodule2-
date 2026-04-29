@@ -69,11 +69,27 @@
                         </div>
                     </div>
 
-<label>Expiry</label><br>
-<input type="month"><br><br>
-<label>CVV</label><br>
-<input type="password"><br><br><h3>Net Banking Details</h3>
-<label>Select Bank</label><br>
+<div class="col-6">
+                        <div class="form-check border rounded p-3">
+                            <input class="form-check-input" type="radio" name="pay" id="netbanking">
+                            <label class="form-check-label ms-2" for="netbanking">
+                                Net Banking
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="card mb-4 shadow-sm border-0 rounded-4" id="creditSection">
+            <div class="card-body">
+                <h3><i class="bi bi-credit-card"></i> Credit Card Details</h3>
+
+                <div class="mb-3">
+                    <label for="cardnumber" class="form-label">Card Number</label>
+                    <input type="text" id="cardnumber" class="form-control" placeholder="XXXX XXXX XXXX XXXX">
+                </div>
 <select>
 <option>SBI</option>
 <option>HDFC</option>
